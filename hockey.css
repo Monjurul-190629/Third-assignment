@@ -1,0 +1,14 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+header li:hover{
+    color: darkred;
+}
+
+
+/* gird section */
+.blend{
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.55);
+}

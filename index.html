@@ -347,62 +347,80 @@
 
         <!-- Contact section -->
 
-        <div class = "mx-4 lg:mx-20">
-          <div class = "flex flex-col justify-center items-center text-center mb-4">
+        <div class = "mt-12 lg:mx-20">
+          <div class = "mx-4 flex flex-col justify-center items-center text-center mb-4 mt-4">
             <h2 class = "font-bold text-2xl">Get in touch</h2>
             <p class = "w-80 mt-1">“Shall we stay in touch” is the best professional way to keep in touch with someone. It sets up a form that you can give your feedback.
             </p>
           </div>
 
-          <div class = "flex flex-col justify-center items-center lg:flex-row">
-               <div class = "flex flex-col gap-2">
-                <div class = "bg-red-200 px-4 lg:px-10 text-justify py-10 rounded-lg">
-                  <img src = "Images/Group 1171275317.png" class = "py-5">
-                  <p class = "text-gray-500 text-xl ">Phone number</p>
-                  <h2 class = "font-bold text-xl">+880178121-212</h2>
-                </div>
-                <div class = "bg-red-200 px-4 lg:px-10 text-justify py-10 rounded-lg">
-                  <img src = "Images/Group 1171275318.png" class = "py-5">
-                  <p class = "text-gray-500 text-xl ">Email</p>
-                  <h2 class = "font-bold text-xl">Hockey@support.com</h2>
-                </div>
-                <div class = "bg-red-200 px-4 lg:px-10 text-justify py-10 rounded-lg">
-                  <img src = "Images/Group 1171275321.png" class = "py-5">
-                  <p class = "text-gray-500 text-xl ">Location</p>
-                  <h2 class = "font-bold text-xl"> 152/1 Mohakhali Wireless Gate</h2>
-                </div>
+          <div class = "mx-4 flex flex-col justify-center items-center lg:flex-row">
+               <div class = "flex-1">
+                <div class = "flex flex-col gap-3 lg:gap-2">
+                  <div class = "bg-red-200 px-4 lg:px-10 text-justify py-10 rounded-lg">
+                    <img src = "Images/Group 1171275317.png" class = "py-5">
+                    <p class = "text-gray-500 text-xl ">Phone number</p>
+                    <h2 class = "font-bold text-xl">+880178121-212</h2>
+                  </div>
+                  <div class = "bg-red-200 px-4 lg:px-10 text-justify py-10 rounded-lg">
+                    <img src = "Images/Group 1171275318.png" class = "py-5">
+                    <p class = "text-gray-500 text-xl ">Email</p>
+                    <h2 class = "font-bold text-xl">Hockey@support.com</h2>
+                  </div>
+                  <div class = "bg-red-200 px-4 lg:px-10 text-justify py-10 rounded-lg">
+                    <img src = "Images/Group 1171275321.png" class = "py-5">
+                    <p class = "text-gray-500 text-xl ">Location</p>
+                    <h2 class = "font-bold text-xl"> 152/1 Mohakhali Wireless Gate</h2>
+                  </div>
+                 </div>
                </div>
+              <!-- For only small devices -->
+               <div class = "flex-1 visible lg:hidden">
+                 
+                <div class = "mt-4 flex flex-col">
+                  <label class = "text-xl font-semibold">Your name</label><br>
+                  <input type = "text" placeholder = "Enter your name" class = "py-2 hover:outline-0 shadow-md"><br>
+                  <label class = "text-xl font-semibold">Your Email</label><br>
+                  <input type = "email" placeholder = "Enter your email" class = "py-2 hover:outline-0 shadow-md"><br>
+                  <label class = "text-xl font-semibold">Your Subject</label><br>
+                  <input type = "text" placeholder = "Enter your subject" class = "py-2 hover:outline-0 shadow-md"><br>
+                  <label class = "text-xl font-semibold">Your Number</label><br>
+                  <input type = "number" placeholder = "Enter your number" class = "py-2 hover:outline-0 shadow-md"><br>
+                  <label class = "text-xl font-semibold">Message</label><br>
+                  <textarea name = "message_section" placeholder="Enter your message" cols="10" rows="7" class = "mt-1 px-1 py-1 rounded-md border border-gray-400"></textarea>
+                  <button class = "bg-red-600 hover:bg-transparent hover:text-red-600 hover:border hover:border-red-600 w-[300px] py-2 my-5 rounded-md text-semibold text-white">Send Message</button>
+                </div>
 
-               <div class = "">
+               </div>
+              <!-- For large devices -->
+               <div class = "flex-1 hidden lg:block">
                 <form class = "grid grid-cols-1 lg:grid-cols-2">
-                  <div class ="px-10 py-4">
-                    <label class = "text-xl font-semibold">Your name</label><br>
-                    <input type = "text" placeholder = "Enter your name" class = "mt-2 px-2 py-3 rounded-md">
+                  <div class ="lg:px-10 py-4">
+                    <label class = "text-sm lg:text-xl font-semibold">Your name</label><br>
+                    <input type = "text" placeholder = "Enter your name" class = "mt-2 px-2 py-3 rounded-md shadow-lg outline-0 hover:outline-0">
                   </div>
 
                   <div class ="px-10 py-4">
                     <label class = "text-xl font-semibold">Your Email</label><br>
-                    <input type = "email" placeholder = "Enter your email" class = "mt-2 px-2 py-3 rounded-md">
+                    <input type = "email" placeholder = "Enter your email" class = "mt-2 px-2 py-3 rounded-md shadow-lg outline-0 hover:outline-0">
                   </div>
                   
                   <div class ="px-10 py-4">
                     <label class = "text-xl font-semibold">Subject</label><br>
-                    <input type = "text" placeholder = "Enter your subject" class = "mt-2 px-2 py-3 rounded-md">
+                    <input type = "text" placeholder = "Enter your subject" class = "mt-2 px-2 py-3 rounded-md shadow-lg outline-0 hover:outline-0">
                   </div>
 
                   <div class ="px-10 py-4">
                     <label class = "text-xl font-semibold">Phone Number</label><br>
-                    <input type = "number" placeholder = "Enter your number" class = "mt-2 px-2 py-3 rounded-md">
+                    <input type = "number" placeholder = "Enter your number" class = "mt-2 px-2 py-3 rounded-md shadow-lg outline-0 hover:outline-0">
                   </div>
                   
                   <div class = "px-10 py-4">
                     <label class = "text-xl font-semibold">Message</label><br>
-                    <textarea placeholder = "Enter your message" cols="70" rows="15" class = "mt-2 px-2 py-3 rounded-md col-span-2">
-
-                    </textarea>
+                    <textarea name = "message_section" placeholder="Enter your message" cols="65" rows="14" class = "mt-2 px-2 py-3 rounded-md col-span-2 border border-gray-400"></textarea>
                   </div>
                 </form>
-                <button class = "px-10">Send Message</button>
+                <button class = "bg-red-600 hover:bg-transparent hover:text-red-600 hover:border hover:border-red-600 w-[580px] py-2 rounded-md mx-10 text-semibold text-white">Send Message</button>
                </div>
                
           </div>
